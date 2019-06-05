@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="243dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="18dp"
+                android:text="미세먼지란?"
+                android:textColor="#000000"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="18dp"
+                android:text="먼지란 대기 중에 떠다니거나 흩날려 내려오는 입자상 물질을 말하는데, 석탄·석유 등의화석연료를 태울 때나 공장·자동차 등의 배출가스에서 많이 발생한다.먼지는 입자의 크기에 따라 50μm 이하인
+총먼지(TSP, Total Suspended Particles)와 입자크기가 매우 작은 미세먼지(PM, Particulate Matter)로 구분한다.
+미세먼지는 다시 지름이 10μm보다 작은 미세먼지(PM10)와 지름이 2.5μm보다 작은 미세먼지(PM2.5)로 나뉜다.
+PM10이 사람의 머리카락 지름(50~70μm)보다 약 1/5~1/7 정도로 작은 크기라면, PM2.5는 머리카락의 약 1/20~1/30에 불과할 정도로 매우 작다.
+"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imagefin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fin1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="18dp"
+                android:text="\n 이처럼 미세먼지는 눈에 보이지 않을 만큼 매우 작기 때문에 대기 중에 머물러 있다
+호흡기를 거쳐 폐 등에 침투하거나 혈관을 따라 체내로 이동하여 들어감으로써 건강에 나쁜 영향을 미칠 수도 있다.
+\n1) 세계보건기구(WHO)는 미세먼지(PM10, PM2.5)에 대한 대기질 가이드라인을 1987년부터 제시해 왔고,
+2013년에는 세계보건기구 산하의 국제암연구소(IARC, International Agency for Research on Cancer)에서 미세먼지를
+사람에게 발암이 확인된 1군 발암물질(Group 1)로 지정하였다.
+"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imagefin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fin2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="18dp"
+                android:text=" 미세먼지 왜 위험한가?\n
+ 미세먼지는 여러 가지 복합한 성분을 가진 대기 중 부유 물질이다. 대부분 자동차의 배기가스,
+도로 주행과정에서 발생하는 먼지에서 발생한다. 입자의 크기와 화학적 조성이 건강 영향을 결정한다.
+미세먼지의 노출은 호흡기 및 심혈관계 질환의 발생과 관련이 있으며 사망률도 증가시키는 것으로 보고되고 있다.
+특히, 크기가 10마이크로미터 이하의 작은 먼지 입자들은 폐와 혈중으로 유입될 수 있기 때문에 큰 위협이 된다.
+지름이 10마이크로미터보다 작고, 2.5마이크로미터보다 큰 입자를 미세먼지라고 부르며 주로 도로변이나 산업단지 등에서 발생한다.
+지름이 2.5마이크로미터 이하의 입자는 초미세먼지라고 하며 담배 연기나 연료의 연소 시에 생성된다. 입자의 성분이 인체의 독성에
+중요한 역할을 하는데, 주로 연소 입자인 탄소, 유기탄화수소, 질산염, 황산염, 유해금속 성분 등으로 구성되어 있다. 이들은 크기가 매우
+작아서 코와 기도를 거쳐 기도 깊숙한 폐포에 도달할 수 있으며, 크기가 작을수록 폐포를 직접 통과해서 혈액을 통해 전신적인 순환을 할 수 있다.
+"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imagefin3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/explain" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="18dp"
+                android:text="\미세먼지로 인한 몸의 증상은?\n
+ 급성 노출 시에는 기도의 자극으로 인한 기침과 호흡 곤란이 발생하며, 천식이 악화되고 부정맥이 발생한다. 만성 노출 시에는
+폐기능이 감소하고 만성 기관지염이 증가하고 사망률을 높일 수 있다. 특히, 심장이나 폐질환자, 아이와 노인, 임산부는 미세먼지
+노출에 의한 영향이 더 크며, 심지어 건강한 성인이어도 높은 농도에 노출되면 일시적으로 이런 증상들을 경험하게 된다.
+이러한 증상들은 주로 미세먼지에 의해 세기관지에 염증 반응이 유발됨으로써 발생한다. 또한 기도와 폐에서 박테리아를 불활성화하거나
+제거하는 인체의 방어 작용을 방해함으로써 호흡기계 감염을 초래하게 한다. 미세먼지에 의한 심혈관질환의 발생은 산화스트레스 및 염증 반응,
+그리고 자율신경계의 장애와 혈액 응고 능력의 변화와 관련 있는 것으로 보고되고 있다.
+
+\n특히 주의해야 할 사람은?\n
+ 미세먼지와 만성질환 미국의 일리노이 지역 거주 노인을 대상으로 한 연구에서 미세먼지 농도가 10ug/m2 증가할 때 심근경색이 있었던 사람은 2.7배,
+당뇨병을 가진 사람은 2.0배 사망률이 증가하는 것으로 조사되었고, 우리나라 연구에서는 심부전환자가 사망위험이 약 2.5배 높았다.
+
+\n미세먼지와 어린이\n
+ 미세먼지에 노출된 어린이에서 호흡기계 질환으로 인한 사망률이 증가하였으며, 폐기능이 발달하는 시기에 호흡기가 이런 위험물질에
+노출되면 성인이 되어서도 폐 기능에 영향을 주게 된다. 캘리포니아 지역의 학생을 추적 관찰한 결과 이런 오염 물질에 장기간 노출된 어린이는 성인이
+되었을 때 폐기능이 낮을 가능성이 4.9배나 높았다. 또한 이런 폐기능 저하는 심혈관계질환과 당뇨병의 발생위험을 증가시키는 것으로 알려져 있다.
+대기오염이 기준치 이하로 유지되어도 민감한 어린이에게는 더 심각한 영향을 줄 수 있다.
+이와 같은 연구 결과들은 누구나 청정 지역에서 살기를 바라지만 그럴 수 없는 경우가 많기 때문에 환경의학적으로 중요한 과제이다.
+
+\n미세먼지와 가임기 여성\n
+ 미세먼지의 노출은 재태 기간에 비해 작은 체중아의 출산과 관련성이 보고되었고, 2.5마이크로미터보다 작은 초미세먼지의
+노출은 저체중 출생아, 조산아, 재태 기간에 비해 작은 체중아를 출산하는 것과 관련이 있다.
+"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imagefin4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fin3" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:lineSpacingExtra="18dp"
+                android:text="미세먼지 예방법은?\n
+① 예방이 최선이나, 어쩔 수 없이 노출되어 증상이 발생하게 되면 즉시 병원을 방문하여 초기에 관리받는 것이 좋다.\n
+② 대기오염을 줄이기 위한 학문적, 정책적, 외교적의 노력이 필요하나, 당장 개인이 할 수 있는 일들은 다음과 같다.\n
+\n
+• 미세먼지 농도가 높을 때에는 호흡기나 심혈관 질환자, 아이와 노인, 임산부는 외출을 자제해야 한다. 흡입되는 미세먼지는 활동의 강도와 기간에 비례하기 때문에 건강한 성인은 과격한 실외 활동을 최소화 것이 좋다.\n
+• 대개 도로변이 미세먼지 농도가 더 높기 때문에 도로변에서 운동하지 않도록 한다.\n
+• 실외 활동 시에 황사마스크를 착용하고, 불가피한 외출 후에는 코와 손을 잘 씻는 것이 좋다.\n
+• 창문을 열어 두면 외부에서 유입된 미세먼지로 실내의 미세먼지 농도가 증가하기 때문에 창문을 닫아야 한다. 에어필터나 공기청정기가 도움이 될 수 있다.\n
+• 실내에서 흡연을 하거나 촛불을 켜는 것은 미세먼지 농도를 높이는 것이므로 피해야 한다.\n
+"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

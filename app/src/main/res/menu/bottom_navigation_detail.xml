@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_tem"
+        android:icon="@drawable/icon_tem"
+        android:title="온도"/>
+    <item
+        android:id="@+id/action_hum"
+        android:icon="@drawable/icon_hum"
+        android:title="습도"/>
+    <item
+        android:id="@+id/action_dust"
+        android:icon="@drawable/icon_dust"
+        android:title="미세먼지"/>
+    <item
+        android:id="@+id/action_co"
+        android:icon="@drawable/icon_co"
+        android:title="co"/>
+</menu>
